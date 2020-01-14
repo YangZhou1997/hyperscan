@@ -1,6 +1,8 @@
 cmake_minimum_required (VERSION 2.8.11)
 project (hyperscan C CXX)
 
+set(CMAKE_POSITION_INDEPENDENT_CODE ON)
+
 set (HS_MAJOR_VERSION 5)
 set (HS_MINOR_VERSION 2)
 set (HS_PATCH_VERSION 1)

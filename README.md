@@ -1,3 +1,14 @@
+# Hyperscan-Rust
+
+Building Rust binding: 
+```bash
+sudo apt-get install -y ragel
+mkdir build
+cd build/ && cmake ~/tools/hyperscan/
+cmake --build .
+sudo make install
+```
+
 # Hyperscan
 
 Hyperscan is a high-performance multiple regex matching library. It follows the
